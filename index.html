@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/379ce4fdba.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+     <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Ka (1).jpg" alt="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>HI, I'm <span>Kanhaiya</span><br>frontend Developer</h1>
+            </div>
+        </div>
+     </div>
+     <!-- ****About section ****** -->
+     <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Snapchat-1270242037.jpg" alt="user">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        My name is Kanhaiya . I am Web Developer currently in my 3rd year of B.Tech studies at Haldia Institute of Technology. With a strong passion for web development and expertise in search engine optimization, I consistently deliver exceptional results for my clients.
+                        My Hobbies : Writing, playing Guitar
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Devlopment</span><br>I can create website using HTML CSS AND JS</li>
+                            <li><span>Database</span><br>I have good knowledge of Database Management System</li>
+                            <li><span>Extra skills</span><br>I love playing guitar,sketches.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Codsoft</span><br>I worked as java developer intern at codsoft</li>
+                            <li><span>Mini projects</span><br>I have also created many mini projects on web development</li>
+                            <li><span>Teamwork</span><br>I am good in teamwork</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Matriculation</span><br>DAV Public School</li>
+                            <li><span>Intermediate</span><br>Primus Public School</li>
+                            <li><span>BTech</span><br>Haldia Institiute of Technology</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+     <!-- *******Servics********* -->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Skills</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-html5"></i>
+                    <h2>HTML</h2>
+                    <p>I am proficient in HTML and have experience building web pages using JavaScript and its various frameworks and libraries.
+                    </p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <h2>CSS</h2>
+                    <p>I have a strong understanding of CSS and can create stylish and responsive user interfaces. I am particularly skilled in using CSS frameworks like Bootstrap and Tailwind CSS.
+                    </p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-js"></i>
+                    <h2>JAVASCRIPT</h2>
+                    <p>I have extensive experience working with JavaScript and its various frameworks and libraries. I can build interactive web applications and implement complex functionalities using JavaScript.
+                    </p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-c"></i>
+                    <h2>C</h2>
+                    <p>I have knowledge about C language. It is my first programming language.I can easily write codes in C.
+                    </p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h2>PYTHON</h2>
+                    <p>I have knowledge about Pyhton language.I can easily use codes as well as I can use different libraries of python for my purpose according to the need.
+                    </p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-java"></i>
+                    <h2>JAVA</h2>
+                    <p>I am most confident in Java. I mostly prefer it to write any code in my daily life.It is my favourite language.
+                    </p>
+                    <a href="#">learn more</a>
+                </div>
+                
+            </div>
+        </div>
+     </div> 
+     
+     <!-- *******Portfolio********* -->
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="insung-yoon-w2JtIQQXoRU-unsplash (1).jpg" alt="work-1">
+                    <div class="layer">
+                        <h3>Analog Clock</h3>
+                        <p>
+                         This is a simple project in which I have created a analog clock using HTML,CSS AND JS.
+                        </p>
+                        <a href="https://kanhaiya23022002.github.io/Analog_clock/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="stone paper scissor (1).png" alt="work-2">
+                    <div class="layer">
+                        <h3>Stone Paper Scissor</h3>
+                        <p>
+                            Stone Paper Scissor is a simple hand game typically played between two people. Each player simultaneously forms one of three shapes with their hand: a fist representing "rock," an open hand representing "paper," or a hand with the index and middle fingers extended forming a V, representing "scissors." I have created this game using HTML,CSS AND JS.
+                        </p>
+                        <a href="https://kanhaiya23022002.github.io/stone-paper-scissor-game/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="CURRENCY CONV (1).png" alt="work-3">
+                    <div class="layer">
+                        <h3>Currency Convertor</h3>
+                        <p>
+                        I have created this Currency Convertor website using HTML,CSS and JS.
+                        </p>
+                        <a href="https://kanhaiya23022002.github.io/Currency_convertor/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="eric-park-QbX8A8eHfzw-unsplash (1).jpg" alt="work-4">
+                    <div class="layer">
+                        <h3>Animated Pic Gallery</h3>
+                        <p>
+                            I have created this animated picture gallery using basic HTML and CSS.
+                        </p>
+                        <a href="https://kanhaiya23022002.github.io/Animated-photos-gallery/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="car rental.jpg" alt="work-5">
+                    <div class="layer">
+                        <h3>Car Rental Website</h3>
+                        <p>
+                            I have created this car rental website using HTML,CSS and JS.
+                        </p>
+                        <a href="https://kanhaiya23022002.github.io/car-rental-website/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="To do list.png" alt="work-6">
+                    <div class="layer">
+                        <h3>To-Do List Website</h3>
+                        <p>
+                            I have created this To do List website using HTML,CSS and JS.
+                        </p>
+                        <a href="https://kanhaiya23022002.github.io/ToDoList/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Snake_OG-logo (1).jpg" alt="work-7">
+                    <div class="layer">
+                        <h3>Snake Game</h3>
+                        <p>
+                            I have created this Snake Game using HTML,CSS and JS.
+                        </p>
+                        <a href="https://kanhaiya23022002.github.io/Snake-Game/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+     </div>
+
+     <!-- ******contact********* -->
+     <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>kanhaiyajha270@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>7781932737</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100049197729532"><i class="fab fa-facebook"></i></a>
+                        <a href="https://github.com/Kanhaiya23022002"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/kanhaiyajha695/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/kanhaiya-72184b245/"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="RESUME.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @Kanhaiya. Made with <i class="fas fa-heart"></i></p>
+        </div>
+     </div>
+
+     <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+     </script>
+
+     <script>
+        var sidemenu=document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right= "0";
+        }
+        function closemenu(){
+            sidemenu.style.right= "-200px";
+        }
+     </script>
+     <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzTLbV9JY3jJiOKkafd84w_iXO6Rizt10v8Eub5Idj07MgK12t6ecKyoiB4TFbfBHNapg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
